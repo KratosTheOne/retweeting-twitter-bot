@@ -3,14 +3,13 @@ import time
 import os
 from os import environ
 
-now = datetime.datetime.now()
 
 print('This is a Twitter bot')
 
-CONSUMER_KEY = environ['CONSUMER_KEY']
-CONSUMER_SECRET = environ['CONSUMER_SECRET']
-ACCESS_KEY = environ['ACCESS_KEY']
-ACCESS_SECRET = environ['ACCESS_SECRET']
+CONSUMER_KEY = environ['C_Key']
+CONSUMER_SECRET = environ['C_S']
+ACCESS_KEY = environ['A_K']
+ACCESS_SECRET = environ['A_S']
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
