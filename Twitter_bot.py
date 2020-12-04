@@ -1,15 +1,18 @@
 import tweepy
 import time
-import os
-from os import environ
+import keys
 
+key1 = keys.C_K
+key2 = keys.C_S
+key3 = keys.A_K
+key4 = keys.A_S
 
 print('This is a Twitter bot')
 
-CONSUMER_KEY = environ['C_Key']
-CONSUMER_SECRET = environ['C_S']
-ACCESS_KEY = environ['A_K']
-ACCESS_SECRET = environ['A_S']
+CONSUMER_KEY = key1
+CONSUMER_SECRET = key2
+ACCESS_KEY = key3
+ACCESS_SECRET = key4
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
@@ -50,4 +53,4 @@ def fav_tweet():
 
 while True:
     fav_tweet()
-    time.sleep(15)
+    time.sleep(10)
