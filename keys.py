@@ -1,6 +1,6 @@
 
 
-C_K = 'AhArXbCRexNtLfUu7IluJ1Ju6'
-C_S = 'Lj0oZfizdXzkl3ct3JrzmMCZHsKYuaQPS2yr2yj0m1qFVk0AYP'
-A_K = '950392145659088896-UqvR0XKPGz6ZNWyBsm0O1ksBt5eH72q'
-A_S = 'JpDmeX4TUkwu3EIz2bJ16vGTzeq1prHCrNk1S2swHMtpU'
+C_K = ''
+C_S = ''
+A_K = ''
+A_S = ''
